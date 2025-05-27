@@ -6,6 +6,7 @@ export default defineConfig({
   model: {},
   initialState: {},
   request: {},
+  // extraStyles: ['src/assets/styles/global.less'],
   layout: {
     title: '@umijs/max',
   },
@@ -33,6 +34,11 @@ export default defineConfig({
       name: '测试页',
       path: '/test',
       component: './Test',
+    },
+    {
+      name: '测试表格',
+      path: '/testTable',
+      component: './TestTable',
     },
   ],
   npmClient: 'pnpm',
